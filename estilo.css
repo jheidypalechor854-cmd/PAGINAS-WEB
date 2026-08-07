@@ -1,0 +1,90 @@
+
+.encabezado {
+    background-color: #07549b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.menu {
+    background-color: #333;
+}
+
+
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.menu li {
+    margin: 0;
+}
+
+
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+
+
+
+
+
+.menu-seccion1 {
+    background-color: #e3f2fd;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+.menu-seccion2 {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+.menu-seccion3 {
+    background-color: #e3f2fd;
+    padding: 50px;
+    text-align: center;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.imagenes img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
